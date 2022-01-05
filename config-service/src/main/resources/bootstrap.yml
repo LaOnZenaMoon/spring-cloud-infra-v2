@@ -1,0 +1,6 @@
+# create the keystore and locate the key file
+encrypt:
+  key-store:
+    location: file:/springCloudConfigServer.jks
+    password:
+    alias: springCloudConfigServer
