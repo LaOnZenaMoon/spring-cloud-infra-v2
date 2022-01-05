@@ -1,6 +1,6 @@
 ## spring-cloud-infra-v2
 * Deal with Spring Cloud infrastructure
-* Will be used with other projects[ecommerce-backend]
+* Will be used with other projects[spring-cloud-config-server, ecommerce-backend]
 
 ## Project structure
 
