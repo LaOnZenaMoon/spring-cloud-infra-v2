@@ -1,0 +1,13 @@
+### config-service > 속성 변경 반영
+POST http://localhost:8888/actuator/refresh
+
+> {%
+client.log(response.body);
+%}
+
+### gateway-service > config-service > 속성 변경 반영
+POST {{host}}/actuator/refresh
+
+> {%
+client.log(response.body);
+%}
