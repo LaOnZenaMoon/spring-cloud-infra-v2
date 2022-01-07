@@ -26,7 +26,7 @@ spring:
         - id: auth-service
           uri: lb://auth-service-app
           predicates:
-            - Path=/auth-service/auths
+            - Path=/auth-service/users
             - Method=POST
           filters:
             - RemoveRequestHeader=Cookie

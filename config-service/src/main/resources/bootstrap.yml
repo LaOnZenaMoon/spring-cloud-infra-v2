@@ -1,6 +1,7 @@
 # create the keystore and locate the key file
 encrypt:
   key-store:
-    location: file:/springCloudConfigServer.jks
-    password:
+#    location: file:/springCloudConfigServer.jks
+    location: file://${user.home}/lozm/git/personal/spring-cloud-config-server/keystore/springCloudConfigServer.jks
+    password: asdfasdf1234
     alias: springCloudConfigServer
