@@ -51,7 +51,7 @@ spring:
         - id: product-service
           uri: lb://product-service-app
           predicates:
-            - Path=/product-service/products
+            - Path=/product-service/products/**
             - Method=GET
           filters:
             - RemoveRequestHeader=Cookie
